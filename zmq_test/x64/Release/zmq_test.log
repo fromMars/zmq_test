@@ -1,0 +1,738 @@
+﻿cl : 命令行 warning D9002: 忽略未知选项“-std=c++11”
+cl : 命令行 warning D9002: 忽略未知选项“-pedantic”
+  ZMQServer.cpp
+C:\c projs\zmq_sqlite_wxwidgets\include\zmq.h(520,1): warning C4820: “zmq_pollitem_t”:“4”字节填充添加在 数据成员“zmq_pollitem_t::revents”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\compatibility.hpp(113,7): warning C4668: 没有将“__GNUC__”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\compatibility.hpp(116,1): warning C4005: “ZMQPP_DEPRECATED”: 宏重定义
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp_export.h(25): message : 参见“ZMQPP_DEPRECATED”的前一个定义
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\exception.hpp(121,1): warning C4820: “zmqpp::zmq_internal_exception”:“4”字节填充添加在 数据成员“zmqpp::zmq_internal_exception::_error”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\frame.hpp(63,1): warning C4820: “zmqpp::frame”:“7”字节填充添加在 数据成员“zmqpp::frame::_sent”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\message.hpp(240,62): warning C4668: 没有将“ZMQ_BUILD_DRAFT_API”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\socket.hpp(576,62): warning C4668: 没有将“ZMQ_BUILD_DRAFT_API”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\socket.hpp(632,24): warning C4820: “zmqpp::socket”:“4”字节填充添加在 数据成员“zmqpp::socket::_type”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\actor.hpp(168,3): warning C4820: “zmqpp::actor”:“6”字节填充添加在 数据成员“zmqpp::actor::retval_”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\actor.hpp(168,3): warning C4626: “zmqpp::actor”: 已将对齐运算符隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\reactor.hpp(171,5): warning C4820: “zmqpp::reactor”:“7”字节填充添加在 数据成员“zmqpp::reactor::dispatching_”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\loop.hpp(159,5): warning C4820: “zmqpp::loop”:“6”字节填充添加在 数据成员“zmqpp::loop::rebuild_poller_”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\zap_request.hpp(137,1): warning C4820: “zmqpp::zap_request”:“7”字节填充添加在 数据成员“zmqpp::zap_request::verbose”后
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\auth.hpp(169,1): warning C4820: “zmqpp::auth”:“5”字节填充添加在 数据成员“zmqpp::auth::verbose”后
+C:\wxWidgets_win64\include\msvc\wx\setup.h(140,10): warning C4464: 相对包含路径包括 ".."
+C:\wxWidgets_win64\include\wx\buffer.h(54,1): warning C4820: “wxPrivate::UntypedBufferData”:“5”字节填充添加在 数据成员“wxPrivate::UntypedBufferData::m_owned”后
+C:\wxWidgets_win64\include\wx\strconv.h(307,5): warning C4820: “wxMBConvUTF7::DecoderState”:“2”字节填充添加在 数据成员“wxMBConvUTF7::DecoderState::isLSB”后
+C:\wxWidgets_win64\include\wx\strconv.h(333,1): warning C4820: “wxMBConvUTF7”:“4”字节填充添加在 数据成员“wxMBConvUTF7::m_stateEncoder”后
+C:\wxWidgets_win64\include\wx\strconv.h(388,1): warning C4820: “wxMBConvUTF8”:“4”字节填充添加在 数据成员“wxMBConvUTF8::m_options”后
+C:\wxWidgets_win64\include\wx\strconv.h(554,25): warning C4820: “wxCSConv”:“4”字节填充添加在 数据成员“wxCSConv::m_encoding”后
+C:\wxWidgets_win64\include\wx\unichar.h(173,45): warning C4365: “return”: 从“wxUniChar::value_type”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\unichar.h(174,33): warning C4365: “return”: 从“wxUniChar::value_type”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\unichar.h(175,42): warning C4365: “return”: 从“wxUniChar::value_type”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\unichar.h(176,36): warning C4365: “return”: 从“wxUniChar::value_type”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\unichar.h(186,1): warning C4365: “return”: 从“char”转换到“wxUniChar::value_type”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\strvararg.h(566,1): warning C4626: “wxArgNormalizerWchar<const wxString&>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\strvararg.h(566,1): warning C5027: “wxArgNormalizerWchar<const wxString&>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\strvararg.h(583,1): warning C4626: “wxArgNormalizerWchar<const wxCStrData&>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\strvararg.h(583,1): warning C5027: “wxArgNormalizerWchar<const wxCStrData&>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\strvararg.h(760,1): warning C4626: “wxArgNormalizerWchar<wxString>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\strvararg.h(760,1): warning C5027: “wxArgNormalizerWchar<wxString>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\strvararg.h(761,1): warning C4626: “wxArgNormalizerWchar<wxCStrData>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\strvararg.h(761,1): warning C5027: “wxArgNormalizerWchar<wxCStrData>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\string.h(257,1): warning C4820: “wxCStrData”:“7”字节填充添加在 数据成员“wxCStrData::m_owned”后
+C:\wxWidgets_win64\include\wx\string.h(965,7): warning C4365: “参数”: 从“size_t”转换到“ptrdiff_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(998,7): warning C4365: “参数”: 从“size_t”转换到“ptrdiff_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1027,40): warning C4365: “参数”: 从“size_t”转换到“ptrdiff_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1028,52): warning C4365: “参数”: 从“size_t”转换到“ptrdiff_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1032,5): warning C4365: “return”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1127,1): warning C4365: “参数”: 从“const size_t”转换到“ptrdiff_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1483,7): warning C4365: “参数”: 从“size_t”转换到“const __int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1514,7): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1516,7): warning C4365: “参数”: 从“long”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1526,7): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(1528,7): warning C4365: “参数”: 从“long”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2407,41): warning C4365: “return”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2408,44): warning C4365: “return”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2443,1): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2449,1): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2576,5): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2579,5): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2730,5): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2733,5): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2844,1): warning C4365: “参数”: 从“size_t”转换到“const __int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2858,5): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2858,5): warning C4365: “参数”: 从“wxString::iterator::difference_type”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2861,5): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(2861,5): warning C4365: “参数”: 从“wxString::iterator::difference_type”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(3102,5): warning C4365: “参数”: 从“__int64”转换到“wxString::size_type”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(3106,5): warning C4365: “参数”: 从“__int64”转换到“wxString::size_type”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(3923,1): warning C4626: “wxStringTypeBufferBase<wxStringCharType>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\string.h(3982): message : 查看对正在编译的 类 模板 实例化“wxStringTypeBufferBase<wxStringCharType>”的引用
+C:\wxWidgets_win64\include\wx\string.h(3923,1): warning C5027: “wxStringTypeBufferBase<wxStringCharType>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\string.h(3945,1): warning C4820: “wxStringTypeBufferLengthBase<wxStringCharType>”:“7”字节填充添加在 数据成员“wxStringTypeBufferLengthBase<wxStringCharType>::m_lenSet”后
+C:\wxWidgets_win64\include\wx\string.h(3994): message : 查看对正在编译的 类 模板 实例化“wxStringTypeBufferLengthBase<wxStringCharType>”的引用
+C:\wxWidgets_win64\include\wx\string.h(3945,1): warning C4626: “wxStringTypeBufferLengthBase<wxStringCharType>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\string.h(3923,1): warning C4626: “wxStringTypeBufferBase<char>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\string.h(4038): message : 查看对正在编译的 类 模板 实例化“wxStringTypeBufferBase<char>”的引用
+C:\wxWidgets_win64\include\wx\string.h(3923,1): warning C5027: “wxStringTypeBufferBase<char>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\string.h(3945,1): warning C4820: “wxStringTypeBufferLengthBase<char>”:“7”字节填充添加在 数据成员“wxStringTypeBufferLengthBase<char>::m_lenSet”后
+C:\wxWidgets_win64\include\wx\string.h(4056): message : 查看对正在编译的 类 模板 实例化“wxStringTypeBufferLengthBase<char>”的引用
+C:\wxWidgets_win64\include\wx\string.h(3945,1): warning C4626: “wxStringTypeBufferLengthBase<char>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\string.h(4385,27): warning C4365: “return”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\string.h(4391,28): warning C4365: “return”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\msgout.h(87,1): warning C4626: “wxMessageOutputWithConv”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(129,1): warning C4820: “wxMessageOutputBest”:“4”字节填充添加在 数据成员“wxMessageOutputBest::m_flags”后
+C:\wxWidgets_win64\include\wx\msgout.h(129,1): warning C4625: “wxMessageOutputBest”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(129,1): warning C5026: “wxMessageOutputBest”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(129,1): warning C4626: “wxMessageOutputBest”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(129,1): warning C5027: “wxMessageOutputBest”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(157,1): warning C4625: “wxMessageOutputDebug”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(157,1): warning C5026: “wxMessageOutputDebug”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(157,1): warning C4626: “wxMessageOutputDebug”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgout.h(157,1): warning C5027: “wxMessageOutputDebug”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\rtti.h(111,49): warning C4820: “wxClassInfo”:“4”字节填充添加在 数据成员“wxClassInfo::m_objectSize”后
+C:\wxWidgets_win64\include\wx\object.h(252,1): warning C4820: “wxRefCounter”:“4”字节填充添加在 数据成员“wxRefCounter::m_count”后
+C:\wxWidgets_win64\include\wx\wxcrt.h(213,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(215,14): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(218,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(220,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(223,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(225,14): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(227,14): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(229,14): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(232,14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(234,14): warning C4996: 'wcscpy': This function or variable may be unsafe. Consider using wcscpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(238,14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(240,14): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(243,14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(245,14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(248,14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(250,14): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(252,14): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(254,14): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(257,14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(259,14): warning C4996: 'wcsncpy': This function or variable may be unsafe. Consider using wcsncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(293,14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(295,14): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(298,14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(300,14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(303,14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(305,14): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(307,14): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(309,14): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(312,14): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(314,14): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(318,14): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(320,14): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(323,14): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(325,14): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(328,14): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(330,14): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(332,14): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(334,14): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(337,14): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(339,14): warning C4996: 'wcsncat': This function or variable may be unsafe. Consider using wcsncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(851,14): warning C4996: '_wfopen': This function or variable may be unsafe. Consider using _wfopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(853,14): warning C4996: '_wfreopen': This function or variable may be unsafe. Consider using _wfreopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(1041,50): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(1042,56): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(1044,54): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(1045,56): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(1047,64): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\wxcrt.h(1048,68): warning C4996: '_wgetenv': This function or variable may be unsafe. Consider using _wdupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\hashmap.h(723,1): warning C4820: “wxLongToLongHashMap_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxLongToLongHashMap_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\hashmap.h(723,1): warning C4820: “wxLongToLongHashMap::Insert_Result”:“7”字节填充添加在 数据成员“wxLongToLongHashMap::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\hashmap.h(726,1): warning C4820: “wxStringToStringHashMap_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxStringToStringHashMap_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\hashmap.h(726,1): warning C4820: “wxStringToStringHashMap::Insert_Result”:“7”字节填充添加在 数据成员“wxStringToStringHashMap::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\hashmap.h(729,1): warning C4820: “wxStringToNumHashMap_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxStringToNumHashMap_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\hashmap.h(729,1): warning C4820: “wxStringToNumHashMap::Insert_Result”:“7”字节填充添加在 数据成员“wxStringToNumHashMap::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\clntdata.h(23,1): warning C4820: “wxShadowObjectMethods_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxShadowObjectMethods_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\clntdata.h(23,1): warning C4820: “wxShadowObjectMethods::Insert_Result”:“7”字节填充添加在 数据成员“wxShadowObjectMethods::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\clntdata.h(28,1): warning C4820: “wxShadowObjectFields_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxShadowObjectFields_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\clntdata.h(28,1): warning C4820: “wxShadowObjectFields::Insert_Result”:“7”字节填充添加在 数据成员“wxShadowObjectFields::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\clntdata.h(159,1): warning C4820: “wxClientDataContainer”:“4”字节填充添加在 数据成员“wxClientDataContainer::m_clientDataType”后
+C:\wxWidgets_win64\include\wx\scopeguard.h(366,58): warning C4626: “wxPrivate::VariableSetterBase”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\scopeguard.h(366,58): warning C5027: “wxPrivate::VariableSetterBase”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\list.h(369,25): warning C4820: “wxListKey”:“4”字节填充添加在 数据成员“wxListKey::m_keyType”后
+C:\wxWidgets_win64\include\wx\list.h(587,28): warning C4820: “wxListBase”:“7”字节填充添加在 数据成员“wxListBase::m_destroy”后
+C:\wxWidgets_win64\include\wx\list.h(591,1): warning C4820: “wxListBase”:“4”字节填充添加在 数据成员“wxListBase::m_keyType”后
+C:\wxWidgets_win64\include\wx\gdicmn.h(386,35): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\gdicmn.h(391,35): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\gdicmn.h(396,35): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\gdicmn.h(660,36): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\gdicmn.h(665,36): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\gdicmn.h(670,36): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\gdicmn.h(690,36): warning C4365: “参数”: 从“unsigned long”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\gdicmn.h(900,1): warning C4820: “wxStringToColourHashMap_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxStringToColourHashMap_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\gdicmn.h(900,1): warning C4820: “wxStringToColourHashMap::Insert_Result”:“7”字节填充添加在 数据成员“wxStringToColourHashMap::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\gdicmn.h(928,20): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\msw\gdiimage.h(75,6): warning C4820: “wxGDIImageRefData”:“4”字节填充添加在 数据成员“wxGDIImageRefData::m_depth”后
+C:\wxWidgets_win64\include\wx\msw\gdiimage.h(76,1): warning C4626: “wxGDIImageRefData”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\gdiimage.h(193,1): warning C4820: “wxGDIImageHandler”:“4”字节填充添加在 数据成员“wxGDIImageHandler::m_type”后
+C:\wxWidgets_win64\include\wx\arrstr.h(412,1): warning C4820: “wxArrayString”:“7”字节填充添加在 数据成员“wxArrayString::m_autoSort”后
+C:\wxWidgets_win64\include\wx\arrstr.h(357,1): warning C4365: “初始化”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\arrstr.h(358,1): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\arrstr.h(365,5): warning C4365: “参数”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\arrstr.h(367,5): warning C4365: “初始化”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\arrstr.h(460,1): warning C4626: “wxCArrayString”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\arrstr.h(555,18): warning C4820: “wxArrayStringsAdapter”:“4”字节填充添加在 数据成员“wxArrayStringsAdapter::m_type”后
+C:\wxWidgets_win64\include\wx\filefn.h(410,14): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\wxWidgets_win64\include\wx\versioninfo.h(75,1): warning C4820: “wxVersionInfo”:“4”字节填充添加在 数据成员“wxVersionInfo::m_micro”后
+C:\wxWidgets_win64\include\wx\mousestate.h(144,16): warning C4820: “wxMouseState”:“2”字节填充添加在 数据成员“wxMouseState::m_aux2Down”后
+C:\wxWidgets_win64\include\wx\longlong.h(135,9): warning C4365: “=”: 从“unsigned __int64”转换到“__int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\longlong.h(377,9): warning C4365: “=”: 从“__int64”转换到“unsigned __int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\longlong.h(380,9): warning C4365: “=”: 从“int”转换到“unsigned __int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\longlong.h(382,9): warning C4365: “=”: 从“long”转换到“unsigned __int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\longlong.h(388,9): warning C4365: “=”: 从“__int64”转换到“unsigned __int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\longlong.h(568,25): warning C4365: “=”: 从“unsigned __int64”转换到“__int64”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\platinfo.h(387,25): warning C4820: “wxPlatformInfo”:“3”字节填充添加在 数据成员“wxPlatformInfo::m_initializedForCurrentPlatform”后
+C:\wxWidgets_win64\include\wx\platinfo.h(395,22): warning C4820: “wxPlatformInfo”:“4”字节填充添加在 数据成员“wxPlatformInfo::m_os”后
+C:\wxWidgets_win64\include\wx\platinfo.h(423,24): warning C4820: “wxPlatformInfo”:“3”字节填充添加在 数据成员“wxPlatformInfo::m_usingUniversal”后
+C:\wxWidgets_win64\include\wx\platinfo.h(429,23): warning C4820: “wxPlatformInfo”:“4”字节填充添加在 数据成员“wxPlatformInfo::m_endian”后
+C:\wxWidgets_win64\include\wx\utils.h(267,38): warning C4820: “wxPlatform”:“4”字节填充添加在 数据成员“wxPlatform::m_longValue”后
+C:\wxWidgets_win64\include\wx\utils.h(746,1): warning C4820: “wxWindowDisabler”:“7”字节填充添加在 数据成员“wxWindowDisabler::m_disabled”后
+C:\wxWidgets_win64\include\wx\thread.h(206,21): warning C4820: “wxMutexLocker”:“7”字节填充添加在 数据成员“wxMutexLocker::m_isOk”后
+C:\wxWidgets_win64\include\wx\thread.h(647,1): warning C4820: “wxThread”:“7”字节填充添加在 数据成员“wxThread::m_isDetached”后
+C:\wxWidgets_win64\include\wx\thread.h(744,44): warning C4820: “wxThreadHelper”:“4”字节填充添加在 数据成员“wxThreadHelper::m_kind”后
+C:\wxWidgets_win64\include\wx\thread.h(747,1): warning C4625: “wxThreadHelper”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\thread.h(747,1): warning C4626: “wxThreadHelper”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\datetime.h(368,5): warning C4820: “wxDateTime::Tm”:“2”字节填充添加在 数据成员“wxDateTime::Tm::wday”后
+C:\wxWidgets_win64\include\wx\variant.h(92,1): warning C4625: “wxVariantData”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\variant.h(92,1): warning C4626: “wxVariantData”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\event.h(293,21): warning C4371: “wxObjectEventFunctor”: 由于成员“wxObjectEventFunctor::m_method”更好的封装，类的布局可能与早期版本的编译器有所不同
+C:\wxWidgets_win64\include\wx\event.h(262): message : 参见“wxObjectEventFunctor”的声明
+C:\wxWidgets_win64\include\wx\event.h(1103,41): warning C4820: “wxEvent”:“4”字节填充添加在 数据成员“wxEvent::m_id”后
+C:\wxWidgets_win64\include\wx\event.h(1116,39): warning C4820: “wxEvent”:“4”字节填充添加在 数据成员“wxEvent::m_propagationLevel”后
+C:\wxWidgets_win64\include\wx\event.h(1145,1): warning C4820: “wxEvent”:“4”字节填充添加在 数据成员“wxEvent::m_willBeProcessedAgain”后
+C:\wxWidgets_win64\include\wx\event.h(1168,1): warning C4820: “wxPropagationDisabler”:“4”字节填充添加在 数据成员“wxPropagationDisabler::m_propagationLevelOld”后
+C:\wxWidgets_win64\include\wx\event.h(1280,1): warning C4626: “wxEventAnyPayloadMixin”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\event.h(1280,1): warning C5027: “wxEventAnyPayloadMixin”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\event.h(1333,1): warning C4820: “wxIdleEvent”:“7”字节填充添加在 数据成员“wxIdleEvent::m_requestMore”后
+C:\wxWidgets_win64\include\wx\event.h(1672,1): warning C4820: “wxNotifyEvent”:“7”字节填充添加在 数据成员“wxNotifyEvent::m_bAllow”后
+C:\wxWidgets_win64\include\wx\event.h(1895,35): warning C4820: “wxMouseEvent”:“3”字节填充添加在 数据成员“wxMouseEvent::m_wheelInverted”后
+C:\wxWidgets_win64\include\wx\event.h(1904,1): warning C4820: “wxMouseEvent”:“4”字节填充添加在 数据成员“wxMouseEvent::m_magnification”后
+C:\wxWidgets_win64\include\wx\event.h(1980,1): warning C4820: “wxGestureEvent”:“6”字节填充添加在 数据成员“wxGestureEvent::m_isEnd”后
+C:\wxWidgets_win64\include\wx\event.h(2247,22): warning C4820: “wxKeyEvent”:“3”字节填充添加在 基类“wxKeyboardState”后
+C:\wxWidgets_win64\include\wx\event.h(2259,28): warning C4820: “wxKeyEvent”:“2”字节填充添加在 数据成员“wxKeyEvent::m_uniChar”后
+C:\wxWidgets_win64\include\wx\event.h(2304,1): warning C4820: “wxKeyEvent”:“2”字节填充添加在 数据成员“wxKeyEvent::m_hasPosition”后
+C:\wxWidgets_win64\include\wx\event.h(2538,30): warning C4820: “wxActivateEvent”:“3”字节填充添加在 数据成员“wxActivateEvent::m_active”后
+C:\wxWidgets_win64\include\wx\event.h(2592,19): warning C4820: “wxMenuEvent”:“4”字节填充添加在 数据成员“wxMenuEvent::m_menuId”后
+C:\wxWidgets_win64\include\wx\event.h(2651,1): warning C4820: “wxCloseEvent”:“5”字节填充添加在 数据成员“wxCloseEvent::m_canVeto”后
+C:\wxWidgets_win64\include\wx\event.h(2683,1): warning C4820: “wxShowEvent”:“7”字节填充添加在 数据成员“wxShowEvent::m_show”后
+C:\wxWidgets_win64\include\wx\event.h(2712,1): warning C4820: “wxIconizeEvent”:“7”字节填充添加在 数据成员“wxIconizeEvent::m_iconized”后
+C:\wxWidgets_win64\include\wx\event.h(2752,1): warning C4820: “wxFullScreenEvent”:“7”字节填充添加在 数据成员“wxFullScreenEvent::m_fullscreen”后
+C:\wxWidgets_win64\include\wx\event.h(2814,34): warning C4365: “参数”: 从“const int”转换到“wxUint32”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\event.h(2814,34): warning C4365: “return”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\event.h(2864,22): warning C4820: “wxDropFilesEvent”:“4”字节填充添加在 数据成员“wxDropFilesEvent::m_pos”后
+C:\wxWidgets_win64\include\wx\event.h(2882,1): warning C4365: “初始化”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\event.h(3182,1): warning C4820: “wxQueryNewPaletteEvent”:“7”字节填充添加在 数据成员“wxQueryNewPaletteEvent::m_paletteRealized”后
+C:\wxWidgets_win64\include\wx\event.h(3245,22): warning C4820: “wxNavigationKeyEvent”:“4”字节填充添加在 数据成员“wxNavigationKeyEvent::m_flags”后
+C:\wxWidgets_win64\include\wx\event.h(3350,1): warning C4820: “wxHelpEvent”:“4”字节填充添加在 数据成员“wxHelpEvent::m_origin”后
+C:\wxWidgets_win64\include\wx\event.h(3520,1): warning C4820: “wxDynamicEventTableEntry”:“4”字节填充添加在 数据成员“wxDynamicEventTableEntry::m_eventType”后
+C:\wxWidgets_win64\include\wx\event.h(3545,54): warning C4820: “wxEventHashTable::EventTypeTable”:“4”字节填充添加在 数据成员“wxEventHashTable::EventTypeTable::eventType”后
+C:\wxWidgets_win64\include\wx\event.h(3586,34): warning C4820: “wxEventHashTable”:“7”字节填充添加在 数据成员“wxEventHashTable::m_rebuildHash”后
+C:\wxWidgets_win64\include\wx\event.h(4035,6): warning C4820: “wxEvtHandler”:“7”字节填充添加在 数据成员“wxEvtHandler::m_enabled”后
+C:\wxWidgets_win64\include\wx\event.h(4061,1): warning C4820: “wxEvtHandler”:“4”字节填充添加在 数据成员“wxEvtHandler::m_clientDataType”后
+C:\wxWidgets_win64\include\wx\event.h(4123,1): warning C4820: “wxEventConnectionRef”:“4”字节填充添加在 数据成员“wxEventConnectionRef::m_refCount”后
+C:\wxWidgets_win64\include\wx\font.h(306,24): warning C4820: “wxFontInfo”:“4”字节填充添加在 数据成员“wxFontInfo::m_family”后
+C:\wxWidgets_win64\include\wx\font.h(310,1): warning C4820: “wxFontInfo”:“4”字节填充添加在 数据成员“wxFontInfo::m_encoding”后
+C:\wxWidgets_win64\include\wx\colour.h(150,9): warning C4365: “return”: 从“int”转换到“wxUint32”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\colour.h(153,9): warning C4365: “return”: 从“int”转换到“wxUint32”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\msw\colour.h(70,1): warning C4820: “wxColour”:“7”字节填充添加在 数据成员“wxColour::m_alpha”后
+C:\wxWidgets_win64\include\wx\translation.h(125,1): warning C4625: “wxMsgCatalog”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\translation.h(125,1): warning C5026: “wxMsgCatalog”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\translation.h(125,1): warning C4626: “wxMsgCatalog”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\translation.h(125,1): warning C5027: “wxMsgCatalog”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\translation.h(210,5): warning C4820: “wxTranslations::wxMsgCatalogMap_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxTranslations::wxMsgCatalogMap_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\translation.h(210,5): warning C4820: “wxTranslations::wxMsgCatalogMap::Insert_Result”:“7”字节填充添加在 数据成员“wxTranslations::wxMsgCatalogMap::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\intl.h(61,27): warning C4820: “wxLanguageInfo”:“4”字节填充添加在 数据成员“wxLanguageInfo::Language”后
+C:\wxWidgets_win64\include\wx\intl.h(85,1): warning C4820: “wxLanguageInfo”:“4”字节填充添加在 数据成员“wxLanguageInfo::LayoutDirection”后
+C:\wxWidgets_win64\include\wx\intl.h(364,32): warning C4820: “wxLocale”:“4”字节填充添加在 数据成员“wxLocale::m_language”后
+C:\wxWidgets_win64\include\wx\intl.h(369,34): warning C4820: “wxLocale”:“7”字节填充添加在 数据成员“wxLocale::m_initialized”后
+C:\wxWidgets_win64\include\wx\accel.h(130,23): warning C4820: “wxAcceleratorEntry”:“4”字节填充添加在 数据成员“wxAcceleratorEntry::m_command”后
+C:\wxWidgets_win64\include\wx\window.h(618,5): warning C4820: “wxWindowBase::ChildrenRepositioningGuard”:“7”字节填充添加在 数据成员“wxWindowBase::ChildrenRepositioningGuard::m_callEnd”后
+C:\wxWidgets_win64\include\wx\window.h(1690,34): warning C4820: “wxWindowBase”:“4”字节填充添加在 数据成员“wxWindowBase::m_windowId”后
+C:\wxWidgets_win64\include\wx\window.h(1774,39): warning C4820: “wxWindowBase”:“2”字节填充添加在 数据成员“wxWindowBase::m_disableFocusFromKbd”后
+C:\wxWidgets_win64\include\wx\window.h(1776,38): warning C4820: “wxWindowBase”:“4”字节填充添加在 数据成员“wxWindowBase::m_exStyle”后
+C:\wxWidgets_win64\include\wx\window.h(1778,43): warning C4820: “wxWindowBase”:“3”字节填充添加在 数据成员“wxWindowBase::m_themeEnabled”后
+C:\wxWidgets_win64\include\wx\window.h(1785,37): warning C4820: “wxWindowBase”:“7”字节填充添加在 数据成员“wxWindowBase::m_hasCustomPalette”后
+C:\wxWidgets_win64\include\wx\msw\window.h(636,39): warning C4820: “wxWindow”:“3”字节填充添加在 数据成员“wxWindow::m_lastKeydownProcessed”后
+C:\wxWidgets_win64\include\wx\msw\window.h(792,20): warning C4820: “wxWindow”:“4”字节填充添加在 数据成员“wxWindow::m_yThumbSize”后
+C:\wxWidgets_win64\include\wx\window.h(2208,1): warning C4625: “wxWindowAccessible”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\window.h(2208,1): warning C4626: “wxWindowAccessible”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\textentry.h(276,5): warning C4820: “wxTextEntryBase::EventsSuppressor”:“7”字节填充添加在 数据成员“wxTextEntryBase::EventsSuppressor::m_suppress”后
+C:\wxWidgets_win64\include\wx\textentry.h(311,36): warning C4820: “wxTextEntryBase”:“4”字节填充添加在 数据成员“wxTextEntryBase::m_eventsBlock”后
+C:\wxWidgets_win64\include\wx\textctrl.h(498,31): warning C4820: “wxTextAttr”:“4”字节填充添加在 数据成员“wxTextAttr::m_flags”后
+C:\wxWidgets_win64\include\wx\textctrl.h(521,34): warning C4820: “wxTextAttr”:“4”字节填充添加在 数据成员“wxTextAttr::m_fontEncoding”后
+C:\wxWidgets_win64\include\wx\textctrl.h(528,39): warning C4820: “wxTextAttr”:“4”字节填充添加在 数据成员“wxTextAttr::m_fontUnderlineType”后
+C:\wxWidgets_win64\include\wx\textctrl.h(530,39): warning C4820: “wxTextAttr”:“7”字节填充添加在 数据成员“wxTextAttr::m_fontStrikethrough”后
+C:\wxWidgets_win64\include\wx\msw\textctrl.h(318,33): warning C4820: “wxTextCtrl”:“4”字节填充添加在 数据成员“wxTextCtrl::m_updatesCount”后
+C:\wxWidgets_win64\include\wx\msw\textctrl.h(328,1): warning C4820: “wxTextCtrl”:“7”字节填充添加在 数据成员“wxTextCtrl::m_isNativeCaretShown”后
+C:\wxWidgets_win64\include\wx\textctrl.h(919,1): warning C4626: “wxStreamToTextRedirector”: 已将对齐运算符隐式定义为“已删除”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winbase.h(7679,48): warning C5039: “TpSetCallbackCleanupGroup”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10326,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_TH2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10332,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS1”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10337,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_TH2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10341,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_TH2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10348,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10358,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10362,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_TH2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10367,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS3”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10374,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS4”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10377,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS1”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10380,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS4”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10385,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS1”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10388,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS5”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10588,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(10612,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS5”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(14093,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS5”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(14296,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS5”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(14399,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS5”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(14495,21): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS5”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(14599,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS5”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15350,23): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15406,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS2”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15525,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS3”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15675,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS4”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15688,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS4”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winioctl.h(15916,22): warning C4668: 没有将“_WIN32_WINNT_WIN10_RS1”定义为预处理器宏，用“0”替换“#if/#elif”
+C:\wxWidgets_win64\include\wx\msw\winundef.h(46,20): warning C5039: “CreateDialogParamW”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\wxWidgets_win64\include\wx\log.h(208,21): warning C4820: “wxLogRecordInfo”:“4”字节填充添加在 数据成员“wxLogRecordInfo::line”后
+C:\wxWidgets_win64\include\wx\log.h(296,22): warning C4820: “wxLogRecordInfo”:“4”字节填充添加在 数据成员“wxLogRecordInfo::threadId”后
+C:\wxWidgets_win64\include\wx\log.h(317,17): warning C4820: “wxLogRecord”:“4”字节填充添加在 数据成员“wxLogRecord::level”后
+C:\wxWidgets_win64\include\wx\log.h(854,1): warning C4820: “wxLogChain”:“7”字节填充添加在 数据成员“wxLogChain::m_bPassMessages”后
+C:\wxWidgets_win64\include\wx\generic\logg.h(99,1): warning C4820: “wxLogGui”:“5”字节填充添加在 数据成员“wxLogGui::m_bHasMessages”后
+C:\wxWidgets_win64\include\wx\generic\logg.h(99,1): warning C4625: “wxLogGui”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\generic\logg.h(99,1): warning C5026: “wxLogGui”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\generic\logg.h(99,1): warning C4626: “wxLogGui”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\generic\logg.h(99,1): warning C5027: “wxLogGui”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\log.h(1199,27): warning C4820: “wxLogger”:“4”字节填充添加在 数据成员“wxLogger::m_level”后
+C:\wxWidgets_win64\include\wx\msw\private.h(681,5): warning C4820: “HDCMapModeChanger”:“4”字节填充添加在 数据成员“HDCMapModeChanger::m_modeOld”后
+C:\wxWidgets_win64\include\wx\msw\private.h(850,23): warning C4820: “ClassRegistrar”:“4”字节填充添加在 数据成员“ClassRegistrar::m_registered”后
+C:\wxWidgets_win64\include\wx\msw\private.h(1164,84): warning C5039: “SetWindowLongPtrW”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(80,62): warning C5039: “DSA_DestroyCallback”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(89,59): warning C5039: “DSA_EnumCallback”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(106,61): warning C5039: “DSA_Sort”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(132,62): warning C5039: “DPA_DestroyCallback”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(141,59): warning C5039: “DPA_EnumCallback”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(165,61): warning C5039: “DPA_Sort”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(238,105): warning C5039: “DPA_Merge”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\dpa_dsa.h(264,105): warning C5039: “DPA_Search”: 可能引发函数的指针或引用传递到 -EHc 下的外部 "C" 函数。如果此函数引发异常，则可能发生未定义的行为。
+C:\wxWidgets_win64\include\wx\hash.h(156,1): warning C4820: “wxHashTableBase”:“3”字节填充添加在 数据成员“wxHashTableBase::m_deleteContents”后
+C:\wxWidgets_win64\include\wx\cmdargs.h(99,1): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\app.h(474,28): warning C4820: “wxAppConsoleBase”:“4”字节填充添加在 数据成员“wxAppConsoleBase::argc”后
+C:\wxWidgets_win64\include\wx\app.h(540,1): warning C4820: “wxAppConsoleBase”:“7”字节填充添加在 数据成员“wxAppConsoleBase::m_bDoPendingEventProcessing”后
+C:\wxWidgets_win64\include\wx\app.h(546,52): warning C4625: “wxAppConsole”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\app.h(546,52): warning C5026: “wxAppConsole”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\app.h(546,52): warning C4626: “wxAppConsole”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\app.h(546,52): warning C5027: “wxAppConsole”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\app.h(720,1): warning C4820: “wxAppBase”:“1”字节填充添加在 数据成员“wxAppBase::m_isActive”后
+C:\wxWidgets_win64\include\wx\iconloc.h(58,1): warning C4820: “wxIconLocation”:“4”字节填充添加在 数据成员“wxIconLocation::m_index”后
+C:\wxWidgets_win64\include\wx\msw\icon.h(33,1): warning C4626: “wxIconRefData”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\app.h(135,1): warning C4820: “wxApp”:“4”字节填充添加在 数据成员“wxApp::m_printMode”后
+C:\wxWidgets_win64\include\wx\stream.h(86,1): warning C4820: “wxStreamBase”:“4”字节填充添加在 数据成员“wxStreamBase::m_lasterror”后
+C:\wxWidgets_win64\include\wx\stream.h(323,1): warning C4820: “wxFilterInputStream”:“7”字节填充添加在 数据成员“wxFilterInputStream::m_owns”后
+C:\wxWidgets_win64\include\wx\stream.h(345,1): warning C4820: “wxFilterOutputStream”:“7”字节填充添加在 数据成员“wxFilterOutputStream::m_owns”后
+C:\wxWidgets_win64\include\wx\stream.h(545,1): warning C4820: “wxStreamBuffer”:“1”字节填充添加在 数据成员“wxStreamBuffer::m_flushable”后
+C:\wxWidgets_win64\include\wx\stream.h(479,34): warning C4365: “return”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\stream.h(480,35): warning C4365: “return”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\stream.h(482,34): warning C4365: “return”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\stream.h(483,33): warning C4365: “return”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\stopwatch.h(88,1): warning C4820: “wxStopWatch”:“4”字节填充添加在 数据成员“wxStopWatch::m_pauseCount”后
+C:\wxWidgets_win64\include\wx\module.h(114,1): warning C4820: “wxModule”:“4”字节填充添加在 数据成员“wxModule::m_state”后
+C:\wxWidgets_win64\include\wx\containr.h(134,1): warning C4820: “wxControlContainerBase”:“6”字节填充添加在 数据成员“wxControlContainerBase::m_inSetFocus”后
+C:\wxWidgets_win64\include\wx\nonownedwnd.h(95,1): warning C4625: “wxNonOwnedWindowBase”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\nonownedwnd.h(95,1): warning C5026: “wxNonOwnedWindowBase”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\nonownedwnd.h(95,1): warning C4626: “wxNonOwnedWindowBase”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\nonownedwnd.h(95,1): warning C5027: “wxNonOwnedWindowBase”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\nonownedwnd.h(55,1): warning C4820: “wxNonOwnedWindow”:“7”字节填充添加在 数据成员“wxNonOwnedWindow::m_perMonitorDPIaware”后
+C:\wxWidgets_win64\include\wx\toplevel.h(353,1): warning C4820: “wxTopLevelWindowBase”:“7”字节填充添加在 数据成员“wxTopLevelWindowBase::m_modified”后
+C:\wxWidgets_win64\include\wx\msw\toplevel.h(192,33): warning C4820: “wxTopLevelWindowMSW”:“2”字节填充添加在 数据成员“wxTopLevelWindowMSW::m_fsIsShowing”后
+C:\wxWidgets_win64\include\wx\statusbr.h(101,1): warning C4820: “wxStatusBarPane”:“7”字节填充添加在 数据成员“wxStatusBarPane::m_bEllipsized”后
+C:\wxWidgets_win64\include\wx\statusbr.h(225,1): warning C4820: “wxStatusBarBase”:“7”字节填充添加在 数据成员“wxStatusBarBase::m_bSameWidthForAllPanes”后
+C:\wxWidgets_win64\include\wx\statusbr.h(148,9): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\statusbr.h(157,9): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\statusbr.h(179,9): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\msw\tooltip.h(119,1): warning C4820: “wxToolTip”:“4”字节填充添加在 数据成员“wxToolTip::m_id”后
+C:\wxWidgets_win64\include\wx\frame.h(248,30): warning C4820: “wxFrameBase”:“4”字节填充添加在 数据成员“wxFrameBase::m_statusBarPane”后
+C:\wxWidgets_win64\include\wx\msw\frame.h(176,40): warning C4820: “wxFrame”:“4”字节填充添加在 数据成员“wxFrame::m_menuDepth”后
+C:\wxWidgets_win64\include\wx\msw\frame.h(183,37): warning C4820: “wxFrame”:“7”字节填充添加在 数据成员“wxFrame::m_wasMinimized”后
+C:\wxWidgets_win64\include\wx\image.h(185,1): warning C4820: “wxImageHandler”:“4”字节填充添加在 数据成员“wxImageHandler::m_type”后
+C:\wxWidgets_win64\include\wx\image.h(201,1): warning C4820: “wxImageHistogramBase_wxImplementation_HashTable::Node”:“4”字节填充添加在 数据成员“wxImageHistogramBase_wxImplementation_HashTable::Node::m_value”后
+C:\wxWidgets_win64\include\wx\image.h(201,1): warning C4820: “wxImageHistogramBase_wxImplementation_HashTable”:“5”字节填充添加在 数据成员“wxImageHistogramBase_wxImplementation_HashTable::m_getKey”后
+C:\wxWidgets_win64\include\wx\image.h(201,1): warning C4820: “wxImageHistogramBase::Insert_Result”:“7”字节填充添加在 数据成员“wxImageHistogramBase::Insert_Result::second”后
+C:\wxWidgets_win64\include\wx\image.h(213,1): warning C4365: “return”: 从“int”转换到“unsigned long”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\imaggif.h(92,1): warning C4820: “wxGIFHandler”:“2”字节填充添加在 数据成员“wxGIFHandler::m_LZBuf”后
+C:\wxWidgets_win64\include\wx\dc.h(719,29): warning C4820: “wxDCImpl”:“3”字节填充添加在 数据成员“wxDCImpl::m_isBBoxValid”后
+C:\wxWidgets_win64\include\wx\dc.h(728,27): warning C4820: “wxDCImpl”:“4”字节填充添加在 数据成员“wxDCImpl::m_deviceLocalOriginY”后
+C:\wxWidgets_win64\include\wx\dc.h(751,28): warning C4820: “wxDCImpl”:“4”字节填充添加在 数据成员“wxDCImpl::m_mappingMode”后
+C:\wxWidgets_win64\include\wx\dc.h(768,1): warning C4820: “wxDCImpl”:“7”字节填充添加在 数据成员“wxDCImpl::m_hasCustomPalette”后
+C:\wxWidgets_win64\include\wx\dc.h(1505,1): warning C4820: “wxDCTextBgModeChanger”:“4”字节填充添加在 数据成员“wxDCTextBgModeChanger::m_modeOld”后
+C:\wxWidgets_win64\include\wx\dc.h(1602,1): warning C4820: “wxDCClipper”:“7”字节填充添加在 数据成员“wxDCClipper::m_restoreOld”后
+C:\wxWidgets_win64\include\wx\dcclient.h(28,1): warning C4625: “wxWindowDC”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(28,1): warning C5026: “wxWindowDC”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(28,1): warning C4626: “wxWindowDC”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(28,1): warning C5027: “wxWindowDC”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(44,1): warning C4625: “wxClientDC”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(44,1): warning C5026: “wxClientDC”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(44,1): warning C4626: “wxClientDC”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(44,1): warning C5027: “wxClientDC”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(60,1): warning C4625: “wxPaintDC”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(60,1): warning C5026: “wxPaintDC”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(60,1): warning C4626: “wxPaintDC”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcclient.h(60,1): warning C5027: “wxPaintDC”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcmemory.h(40,1): warning C4625: “wxMemoryDC”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcmemory.h(40,1): warning C5026: “wxMemoryDC”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcmemory.h(40,1): warning C4626: “wxMemoryDC”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcmemory.h(40,1): warning C5027: “wxMemoryDC”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcprint.h(38,1): warning C4625: “wxPrinterDC”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcprint.h(38,1): warning C5026: “wxPrinterDC”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcprint.h(38,1): warning C4626: “wxPrinterDC”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcprint.h(38,1): warning C5027: “wxPrinterDC”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcscreen.h(31,1): warning C4625: “wxScreenDC”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcscreen.h(31,1): warning C5026: “wxScreenDC”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcscreen.h(31,1): warning C4626: “wxScreenDC”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dcscreen.h(31,1): warning C5027: “wxScreenDC”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\button.h(83,1): warning C4820: “wxButton”:“7”字节填充添加在 数据成员“wxButton::m_authNeeded”后
+C:\wxWidgets_win64\include\wx\menuitem.h(158,31): warning C4820: “wxMenuItemBase”:“4”字节填充添加在 数据成员“wxMenuItemBase::m_id”后
+C:\wxWidgets_win64\include\wx\menuitem.h(179,1): warning C4820: “wxMenuItemBase”:“2”字节填充添加在 数据成员“wxMenuItemBase::m_isEnabled”后
+C:\wxWidgets_win64\include\wx\ownerdrw.h(123,23): warning C4820: “wxOwnerDrawnBase”:“7”字节填充添加在 数据成员“wxOwnerDrawnBase::m_ownerDrawn”后
+C:\wxWidgets_win64\include\wx\ownerdrw.h(130,1): warning C4820: “wxOwnerDrawnBase”:“4”字节填充添加在 数据成员“wxOwnerDrawnBase::m_margin”后
+C:\wxWidgets_win64\include\wx\menu.h(398,34): warning C4820: “wxMenuBase”:“4”字节填充添加在 数据成员“wxMenuBase::m_style”后
+C:\wxWidgets_win64\include\wx\msw\menu.h(144,20): warning C4820: “wxMenu”:“7”字节填充添加在 数据成员“wxMenu::m_doBreak”后
+C:\wxWidgets_win64\include\wx\msw\menu.h(156,25): warning C4820: “wxMenu”:“3”字节填充添加在 数据成员“wxMenu::m_ownerDrawn”后
+C:\wxWidgets_win64\include\wx\msw\menu.h(163,1): warning C4820: “wxMenu”:“4”字节填充添加在 数据成员“wxMenu::m_maxAccelWidth”后
+C:\wxWidgets_win64\include\wx\atomic.h(57,48): warning C4365: “return”: 从“long”转换到“wxUint32”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\atomic.h(148,82): warning C4365: “return”: 从“wxUint32”转换到“wxInt32”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\dialog.h(231,56): warning C4820: “wxDialogBase”:“3”字节填充添加在 数据成员“wxDialogBase::m_layoutAdaptationDone”后
+C:\wxWidgets_win64\include\wx\msgdlg.h(86,5): warning C4820: “wxMessageDialogBase::ButtonLabel”:“4”字节填充添加在 数据成员“wxMessageDialogBase::ButtonLabel::m_stockId”后
+C:\wxWidgets_win64\include\wx\msgdlg.h(86,5): warning C4626: “wxMessageDialogBase::ButtonLabel”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgdlg.h(86,5): warning C5027: “wxMessageDialogBase::ButtonLabel”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msgdlg.h(286,19): warning C4820: “wxMessageDialogBase”:“4”字节填充添加在 数据成员“wxMessageDialogBase::m_dialogStyle”后
+C:\wxWidgets_win64\include\wx\generic\msgdlgg.h(53,1): warning C4820: “wxGenericMessageDialog”:“7”字节填充添加在 数据成员“wxGenericMessageDialog::m_created”后
+C:\wxWidgets_win64\include\wx\generic\msgdlgg.h(53,1): warning C4625: “wxGenericMessageDialog”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\generic\msgdlgg.h(53,1): warning C5026: “wxGenericMessageDialog”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\generic\msgdlgg.h(53,1): warning C4626: “wxGenericMessageDialog”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\generic\msgdlgg.h(53,1): warning C5027: “wxGenericMessageDialog”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\msgdlg.h(48,52): warning C4820: “wxMessageDialog::ButtonAccessors”:“4”字节填充添加在 数据成员“wxMessageDialog::ButtonAccessors::id”后
+C:\wxWidgets_win64\include\wx\msw\msgdlg.h(48,37): warning C4371: “wxMessageDialog::ButtonAccessors”: 由于成员“wxMessageDialog::ButtonAccessors::getter”更好的封装，类的布局可能与早期版本的编译器有所不同
+C:\wxWidgets_win64\include\wx\msw\msgdlg.h(45): message : 参见“wxMessageDialog::ButtonAccessors”的声明
+C:\wxWidgets_win64\include\wx\dataobj.h(247,1): warning C4820: “wxDataObjectSimple”:“6”字节填充添加在 数据成员“wxDataObjectSimple::m_format”后
+C:\wxWidgets_win64\include\wx\dataobj.h(312,1): warning C4820: “wxDataObjectComposite”:“6”字节填充添加在 数据成员“wxDataObjectComposite::m_receivedFormat”后
+C:\wxWidgets_win64\include\wx\dataobj.h(371,1): warning C4625: “wxHTMLDataObject”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dataobj.h(371,1): warning C5026: “wxHTMLDataObject”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dataobj.h(371,1): warning C4626: “wxHTMLDataObject”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dataobj.h(371,1): warning C5027: “wxHTMLDataObject”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\ctrlsub.h(413,1): warning C4820: “wxItemContainer”:“4”字节填充添加在 数据成员“wxItemContainer::m_clientDataItemsType”后
+C:\wxWidgets_win64\include\wx\ctrlsub.h(449,1): warning C4625: “wxWindowWithItems<wxControl,wxItemContainer>”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\ctrlsub.h(453): message : 查看对正在编译的 类 模板 实例化“wxWindowWithItems<wxControl,wxItemContainer>”的引用
+C:\wxWidgets_win64\include\wx\ctrlsub.h(449,1): warning C5026: “wxWindowWithItems<wxControl,wxItemContainer>”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\ctrlsub.h(449,1): warning C4626: “wxWindowWithItems<wxControl,wxItemContainer>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\ctrlsub.h(449,1): warning C5027: “wxWindowWithItems<wxControl,wxItemContainer>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(96,1): warning C4820: “wxMSWOwnerDrawnButtonBase”:“6”字节填充添加在 数据成员“wxMSWOwnerDrawnButtonBase::m_isHot”后
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C4625: “wxMSWOwnerDrawnButton<wxCheckBoxBase>”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\checkbox.h(18): message : 查看对正在编译的 类 模板 实例化“wxMSWOwnerDrawnButton<wxCheckBoxBase>”的引用
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C5026: “wxMSWOwnerDrawnButton<wxCheckBoxBase>”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C4626: “wxMSWOwnerDrawnButton<wxCheckBoxBase>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C5027: “wxMSWOwnerDrawnButton<wxCheckBoxBase>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\checkbox.h(83,1): warning C4820: “wxCheckBox”:“4”字节填充添加在 数据成员“wxCheckBox::m_state”后
+C:\wxWidgets_win64\include\wx\msw\listbox.h(197,33): warning C4820: “wxListBox”:“4”字节填充添加在 数据成员“wxListBox::m_noItems”后
+C:\wxWidgets_win64\include\wx\msw\listbox.h(214,1): warning C4820: “wxListBox”:“7”字节填充添加在 数据成员“wxListBox::m_updateHorizontalExtent”后
+C:\wxWidgets_win64\include\wx\msw\checklst.h(78,1): warning C4365: “参数”: 从“unsigned int”转换到“int”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\msw\choice.h(174,1): warning C4820: “wxChoice”:“4”字节填充添加在 数据成员“wxChoice::m_heightOwn”后
+C:\wxWidgets_win64\include\wx\msw\scrolbar.h(71,1): warning C4820: “wxScrollBar”:“4”字节填充添加在 数据成员“wxScrollBar::m_objectSize”后
+C:\wxWidgets_win64\include\wx\msw\statbmp.h(80,24): warning C4820: “wxStaticBitmap”:“7”字节填充添加在 数据成员“wxStaticBitmap::m_isIcon”后
+C:\wxWidgets_win64\include\wx\msw\statbmp.h(100,1): warning C4820: “wxStaticBitmap”:“7”字节填充添加在 数据成员“wxStaticBitmap::m_ownsCurrentHandle”后
+C:\wxWidgets_win64\include\wx\statbox.h(65,1): warning C4820: “wxStaticBoxBase”:“7”字节填充添加在 数据成员“wxStaticBoxBase::m_areChildrenEnabled”后
+C:\wxWidgets_win64\include\wx\radiobox.h(145,36): warning C4820: “wxRadioBoxBase”:“4”字节填充添加在 数据成员“wxRadioBoxBase::m_numRows”后
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C4625: “wxMSWOwnerDrawnButton<wxRadioButtonBase>”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\radiobut.h(17): message : 查看对正在编译的 类 模板 实例化“wxMSWOwnerDrawnButton<wxRadioButtonBase>”的引用
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C5026: “wxMSWOwnerDrawnButton<wxRadioButtonBase>”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C4626: “wxMSWOwnerDrawnButton<wxRadioButtonBase>”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\ownerdrawnbutton.h(130,1): warning C5027: “wxMSWOwnerDrawnButton<wxRadioButtonBase>”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\radiobut.h(79,1): warning C4820: “wxRadioButton”:“7”字节填充添加在 数据成员“wxRadioButton::m_isChecked”后
+C:\wxWidgets_win64\include\wx\msw\slider.h(149,1): warning C4820: “wxSlider”:“3”字节填充添加在 数据成员“wxSlider::m_isDragging”后
+C:\wxWidgets_win64\include\wx\gauge.h(122,51): warning C4820: “wxGaugeBase”:“4”字节填充添加在 数据成员“wxGaugeBase::m_nDirection”后
+C:\wxWidgets_win64\include\wx\scrolwin.h(108,1): warning C4820: “wxAnyScrollHelperBase”:“7”字节填充添加在 数据成员“wxAnyScrollHelperBase::m_kbdScrollingEnabled”后
+C:\wxWidgets_win64\include\wx\scrolwin.h(352,24): warning C4820: “wxScrollHelperBase”:“2”字节填充添加在 数据成员“wxScrollHelperBase::m_yScrollingEnabled”后
+C:\wxWidgets_win64\include\wx\recguard.h(49,1): warning C4820: “wxRecursionGuard”:“7”字节填充添加在 数据成员“wxRecursionGuard::m_isInside”后
+C:\wxWidgets_win64\include\wx\recguard.h(49,1): warning C4626: “wxRecursionGuard”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\generic\scrolwin.h(53,1): warning C4820: “wxScrollHelper”:“4”字节填充添加在 数据成员“wxScrollHelper::m_adjustScrollFlagReentrancy”后
+C:\wxWidgets_win64\include\wx\dirdlg.h(107,1): warning C4625: “wxDirDialogBase”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\dirdlg.h(107,1): warning C4626: “wxDirDialogBase”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\tbarbase.h(244,6): warning C4820: “wxToolBarToolBase”:“4”字节填充添加在 数据成员“wxToolBarToolBase::m_kind”后
+C:\wxWidgets_win64\include\wx\tbarbase.h(254,25): warning C4820: “wxToolBarToolBase”:“5”字节填充添加在 数据成员“wxToolBarToolBase::m_enabled”后
+C:\wxWidgets_win64\include\wx\tbarbase.h(491,46): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\tbarbase.h(492,58): warning C4365: “参数”: 从“int”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\msw\imaglist.h(200,1): warning C4820: “wxImageList”:“7”字节填充添加在 数据成员“wxImageList::m_useMask”后
+C:\wxWidgets_win64\include\wx\msw\toolbar.h(160,33): warning C4820: “wxToolBar”:“4”字节填充添加在 数据成员“wxToolBar::m_totalFixedSize”后
+C:\wxWidgets_win64\include\wx\msw\combobox.h(182,1): warning C4820: “wxComboBox”:“7”字节填充添加在 数据成员“wxComboBox::m_allowTextEvents”后
+C:\wxWidgets_win64\include\wx\layout.h(151,1): warning C4820: “wxIndividualLayoutConstraint”:“7”字节填充添加在 数据成员“wxIndividualLayoutConstraint::done”后
+C:\wxWidgets_win64\include\wx\sizer.h(273,1): warning C4820: “wxSizerSpacer”:“3”字节填充添加在 数据成员“wxSizerSpacer::m_isShown”后
+C:\wxWidgets_win64\include\wx\sizer.h(489,6): warning C4820: “wxSizerItem”:“4”字节填充添加在 数据成员“wxSizerItem::m_kind”后
+C:\wxWidgets_win64\include\wx\sizer.h(506,28): warning C4820: “wxSizerItem”:“4”字节填充添加在 数据成员“wxSizerItem::m_ratio”后
+C:\wxWidgets_win64\include\wx\generic\choicdgg.h(216,34): warning C4820: “wxSingleChoiceDialog”:“4”字节填充添加在 数据成员“wxSingleChoiceDialog::m_selection”后
+C:\wxWidgets_win64\include\wx\valtext.h(151,39): warning C4820: “wxTextValidator”:“4”字节填充添加在 数据成员“wxTextValidator::m_validatorStyle”后
+C:\wxWidgets_win64\include\wx\generic\textdlgg.h(93,1): warning C4820: “wxTextEntryDialog”:“4”字节填充添加在 数据成员“wxTextEntryDialog::m_dialogStyle”后
+C:\wxWidgets_win64\include\wx\filedlg.h(167,46): warning C4820: “wxFileDialogBase”:“4”字节填充添加在 数据成员“wxFileDialogBase::m_filterIndex”后
+C:\wxWidgets_win64\include\wx\filedlg.h(175,33): warning C4820: “wxFileDialogBase”:“4”字节填充添加在 数据成员“wxFileDialogBase::m_currentlySelectedFilterIndex”后
+C:\wxWidgets_win64\include\wx\msw\filedlg.h(63,20): warning C4820: “wxFileDialog”:“3”字节填充添加在 数据成员“wxFileDialog::m_bMovedWindow”后
+C:\wxWidgets_win64\include\wx\mdi.h(140,1): warning C4625: “wxMDIParentFrameBase”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(140,1): warning C4626: “wxMDIParentFrameBase”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(208,1): warning C4625: “wxMDIChildFrameBase”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(208,1): warning C5026: “wxMDIChildFrameBase”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(208,1): warning C4626: “wxMDIChildFrameBase”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(208,1): warning C5027: “wxMDIChildFrameBase”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(335,1): warning C4625: “wxTDIChildFrame”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(335,1): warning C5026: “wxTDIChildFrame”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(335,1): warning C4626: “wxTDIChildFrame”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(335,1): warning C5027: “wxTDIChildFrame”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(353,1): warning C4625: “wxMDIClientWindowBase”: 已将复制构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(353,1): warning C5026: “wxMDIClientWindowBase”: 已将移动构造函数隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(353,1): warning C4626: “wxMDIClientWindowBase”: 已将对齐运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\mdi.h(353,1): warning C5027: “wxMDIClientWindowBase”: 已将移动赋值运算符隐式定义为“已删除”
+C:\wxWidgets_win64\include\wx\msw\mdi.h(161,38): warning C4820: “wxMDIParentFrame”:“7”字节填充添加在 数据成员“wxMDIParentFrame::m_activationNotHandled”后
+C:\wxWidgets_win64\include\wx\msw\mdi.h(248,1): warning C4820: “wxMDIChildFrame”:“7”字节填充添加在 数据成员“wxMDIChildFrame::m_needsResize”后
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\BaseDrawPanel.h(29,1): warning C4625: “BaseDrawPanel”: 已将复制构造函数隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\BaseDrawPanel.h(29,1): warning C5026: “BaseDrawPanel”: 已将移动构造函数隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\BaseDrawPanel.h(29,1): warning C4626: “BaseDrawPanel”: 已将对齐运算符隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\BaseDrawPanel.h(29,1): warning C5027: “BaseDrawPanel”: 已将移动赋值运算符隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\ZMQServer.h(25,1): warning C4625: “ZMQServer”: 已将复制构造函数隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\ZMQServer.h(25,1): warning C5026: “ZMQServer”: 已将移动构造函数隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\ZMQServer.h(25,1): warning C4626: “ZMQServer”: 已将对齐运算符隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\ZMQServer.h(25,1): warning C5027: “ZMQServer”: 已将移动赋值运算符隐式定义为“已删除”
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\ZMQServer.cpp(90,68): warning C4456: “event”的声明隐藏了上一个本地声明
+C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\zmq_test\ZMQServer.cpp(61,18): message : 参见“event”的声明
+C:\wxWidgets_win64\include\wx\vector.h(519,1): warning C4365: “初始化”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\vector.h(516): message : 在编译 类 模板 成员函数“int *wxVector<T>::insert(int *,wxVector<T>::size_type,const int &)”时
+          with
+          [
+              T=int
+          ]
+C:\wxWidgets_win64\include\wx\dynarray.h(169): message : 查看对正在编译的函数 模板 实例化“int *wxVector<T>::insert(int *,wxVector<T>::size_type,const int &)”的引用
+          with
+          [
+              T=int
+          ]
+C:\wxWidgets_win64\include\wx\dynarray.h(80): message : 查看对正在编译的 类 模板 实例化“wxVector<T>”的引用
+          with
+          [
+              T=int
+          ]
+C:\wxWidgets_win64\include\wx\dynarray.h(677): message : 查看对正在编译的 类 模板 实例化“wxBaseArray<int,wxSortedArray_SortFunction<T>>”的引用
+          with
+          [
+              T=int
+          ]
+C:\wxWidgets_win64\include\wx\vector.h(519,1): warning C4365: “初始化”: 从“__int64”转换到“const size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\vector.h(520,1): warning C4365: “初始化”: 从“__int64”转换到“size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\vector.h(520,1): warning C4365: “初始化”: 从“__int64”转换到“const size_t”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\scopeguard.h(212,1): warning C4820: “wxScopeGuardImpl3<void (__cdecl *)(T *,T *,size_t),int *,int *,size_t>”:“7”字节填充添加在 基类“wxScopeGuardImplBase”后
+          with
+          [
+              T=int
+          ]
+C:\wxWidgets_win64\include\wx\vector.h(535): message : 查看对正在编译的 类 模板 实例化“wxScopeGuardImpl3<void (__cdecl *)(T *,T *,size_t),int *,int *,size_t>”的引用
+          with
+          [
+              T=int
+          ]
+C:\wxWidgets_win64\include\wx\defs.h(359,1): warning C4365: “return”: 从“X”转换到“T”，有符号/无符号不匹配
+          with
+          [
+              X=wxUniChar::value_type
+          ]
+          and
+          [
+              T=char
+          ]
+C:\wxWidgets_win64\include\wx\unichar.h(87): message : 查看对正在编译的函数 模板 实例化“T wx_truncate_cast_impl<char,wxUniChar::value_type>(X)”的引用
+          with
+          [
+              T=char,
+              X=wxUniChar::value_type
+          ]
+C:\wxWidgets_win64\include\wx\arrstr.h(339,1): warning C4365: “参数”: 从“__int64”转换到“wxArrayString::size_type”，有符号/无符号不匹配
+C:\wxWidgets_win64\include\wx\arrstr.h(331): message : 查看对正在编译的函数 模板 实例化“void wxArrayString::assign<wxArrayString::const_iterator>(Iterator,Iterator)”的引用
+          with
+          [
+              Iterator=wxArrayString::const_iterator
+          ]
+C:\wxWidgets_win64\include\wx\defs.h(359,1): warning C4365: “return”: 从“X”转换到“T”，有符号/无符号不匹配
+          with
+          [
+              X=__int64
+          ]
+          and
+          [
+              T=wxUint32
+          ]
+C:\wxWidgets_win64\include\wx\longlong.h(166): message : 查看对正在编译的函数 模板 实例化“T wx_truncate_cast_impl<wxUint32,__int64>(X)”的引用
+          with
+          [
+              T=wxUint32,
+              X=__int64
+          ]
+C:\wxWidgets_win64\include\wx\log.h(916,1): warning C4365: “参数”: 从“T”转换到“wxUIntPtr”，有符号/无符号不匹配
+          with
+          [
+              T=long
+          ]
+C:\wxWidgets_win64\include\wx\log.h(950): message : 查看对正在编译的函数 模板 实例化“wxLogger &wxLogger::Store<long>(const wxString &,T)”的引用
+          with
+          [
+              T=long
+          ]
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(280,1): warning C4774: “wprintf”: 参数 1 中应存在的格式字符串不为字符串字面量
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(280,1): message : 例如，将 printf(name); 换用为 printf("%s", name);，因为“名称”中的格式说明符可能造成安全问题
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(280,1): message : 请考虑对已命名的字符串字面量使用 constexpr 说明符
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(284): message : 查看对正在编译的函数 模板 实例化“int wxPrintf<wxString>(const wxFormatString &,T1)”的引用
+          with
+          [
+              T1=wxString
+          ]
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(287,1): warning C4774: “fwprintf”: 参数 2 中应存在的格式字符串不为字符串字面量
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(287,1): message : 例如，将 printf(name); 换用为 printf("%s", name);，因为“名称”中的格式说明符可能造成安全问题
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(287,1): message : 请考虑对已命名的字符串字面量使用 constexpr 说明符
+C:\wxWidgets_win64\include\wx\wxcrtvararg.h(291): message : 查看对正在编译的函数 模板 实例化“int wxFprintf<wxString>(FILE *,const wxFormatString &,T1)”的引用
+          with
+          [
+              T1=wxString
+          ]
+C:\wxWidgets_win64\include\wx\event.h(466,19): warning C4371: “wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”: 由于成员“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>::m_method”更好的封装，类的布局可能与早期版本的编译器有所不同
+          with
+          [
+              EventTag=wxEventTypeTag<wxNavigationKeyEvent>,
+              EventArg=wxNavigationKeyEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\event.h(397): message : 参见“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”的声明
+          with
+          [
+              EventTag=wxEventTypeTag<wxNavigationKeyEvent>,
+              EventArg=wxNavigationKeyEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\event.h(3887): message : 查看对正在编译的 类 模板 实例化“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”的引用
+          with
+          [
+              EventTag=wxEventTypeTag<wxNavigationKeyEvent>,
+              EventArg=wxNavigationKeyEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\containr.h(200): message : 查看对正在编译的函数 模板 实例化“void wxEvtHandler::Bind<wxEventTypeTag<wxNavigationKeyEvent>,wxNavigationEnabled<wxWindow>,wxNavigationKeyEvent,wxNavigationEnabled<wxWindow>>(const EventTag &,void (__cdecl wxNavigationEnabled<wxWindow>::* )(EventArg &),EventHandler *,int,int,wxObject *)”的引用
+          with
+          [
+              EventTag=wxEventTypeTag<wxNavigationKeyEvent>,
+              EventArg=wxNavigationKeyEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\containr.h(194): message : 在编译 类 模板 成员函数“wxNavigationEnabled<wxWindow>::wxNavigationEnabled(void)”时
+C:\wxWidgets_win64\include\wx\panel.h(33): message : 查看对正在编译的函数 模板 实例化“wxNavigationEnabled<wxWindow>::wxNavigationEnabled(void)”的引用
+C:\wxWidgets_win64\include\wx\panel.h(31): message : 查看对正在编译的 类 模板 实例化“wxNavigationEnabled<wxWindow>”的引用
+C:\wxWidgets_win64\include\wx\event.h(466,19): warning C4371: “wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”: 由于成员“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>::m_method”更好的封装，类的布局可能与早期版本的编译器有所不同
+          with
+          [
+              EventTag=wxEventTypeTag<wxFocusEvent>,
+              EventArg=wxFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\event.h(397): message : 参见“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”的声明
+          with
+          [
+              EventTag=wxEventTypeTag<wxFocusEvent>,
+              EventArg=wxFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\event.h(3887): message : 查看对正在编译的 类 模板 实例化“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”的引用
+          with
+          [
+              EventTag=wxEventTypeTag<wxFocusEvent>,
+              EventArg=wxFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\containr.h(203): message : 查看对正在编译的函数 模板 实例化“void wxEvtHandler::Bind<wxEventTypeTag<wxFocusEvent>,wxNavigationEnabled<wxWindow>,wxFocusEvent,wxNavigationEnabled<wxWindow>>(const EventTag &,void (__cdecl wxNavigationEnabled<wxWindow>::* )(EventArg &),EventHandler *,int,int,wxObject *)”的引用
+          with
+          [
+              EventTag=wxEventTypeTag<wxFocusEvent>,
+              EventArg=wxFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\event.h(466,19): warning C4371: “wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”: 由于成员“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>::m_method”更好的封装，类的布局可能与早期版本的编译器有所不同
+          with
+          [
+              EventTag=wxEventTypeTag<wxChildFocusEvent>,
+              EventArg=wxChildFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\event.h(397): message : 参见“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”的声明
+          with
+          [
+              EventTag=wxEventTypeTag<wxChildFocusEvent>,
+              EventArg=wxChildFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\event.h(3887): message : 查看对正在编译的 类 模板 实例化“wxEventFunctorMethod<EventTag,wxNavigationEnabled<wxWindow>,EventArg,EventHandler>”的引用
+          with
+          [
+              EventTag=wxEventTypeTag<wxChildFocusEvent>,
+              EventArg=wxChildFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\containr.h(205): message : 查看对正在编译的函数 模板 实例化“void wxEvtHandler::Bind<wxEventTypeTag<wxChildFocusEvent>,wxNavigationEnabled<wxWindow>,wxChildFocusEvent,wxNavigationEnabled<wxWindow>>(const EventTag &,void (__cdecl wxNavigationEnabled<wxWindow>::* )(EventArg &),EventHandler *,int,int,wxObject *)”的引用
+          with
+          [
+              EventTag=wxEventTypeTag<wxChildFocusEvent>,
+              EventArg=wxChildFocusEvent,
+              EventHandler=wxNavigationEnabled<wxWindow>
+          ]
+C:\wxWidgets_win64\include\wx\defs.h(359,1): warning C4365: “return”: 从“X”转换到“T”，有符号/无符号不匹配
+          with
+          [
+              X=wxUniChar::value_type
+          ]
+          and
+          [
+              T=signed char
+          ]
+C:\wxWidgets_win64\include\wx\strvararg.h(870): message : 查看对正在编译的函数 模板 实例化“T wx_truncate_cast_impl<T,wxUniChar::value_type>(X)”的引用
+          with
+          [
+              T=signed char,
+              X=wxUniChar::value_type
+          ]
+C:\wxWidgets_win64\include\wx\strvararg.h(861): message : 在编译 类 模板 成员函数“wxArgNormalizerNarrowChar<signed char>::wxArgNormalizerNarrowChar(T,const wxFormatString *,unsigned int)”时
+          with
+          [
+              T=signed char
+          ]
+C:\wxWidgets_win64\include\wx\strvararg.h(903): message : 查看对正在编译的函数 模板 实例化“wxArgNormalizerNarrowChar<signed char>::wxArgNormalizerNarrowChar(T,const wxFormatString *,unsigned int)”的引用
+          with
+          [
+              T=signed char
+          ]
+C:\wxWidgets_win64\include\wx\strvararg.h(900): message : 查看对正在编译的 类 模板 实例化“wxArgNormalizerNarrowChar<signed char>”的引用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\exception(321): warning C4710: “__cdecl std::bad_array_new_length::bad_array_new_length(void) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(65): warning C4710: “void __cdecl std::_Throw_bad_array_new_length(void)”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(138): warning C4710: “void __cdecl std::_Throw_bad_array_new_length(void)”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4509): warning C4710: “void __cdecl std::_Xlen_string(void)”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4509): warning C4710: “void __cdecl std::_Xlen_string(void)”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4515): warning C4710: “wchar_t * __ptr64 __cdecl std::allocator<wchar_t>::allocate(unsigned __int64) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4544): warning C4710: “void __cdecl std::_Xlen_string(void)”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4551): warning C4710: “wchar_t * __ptr64 __cdecl std::allocator<wchar_t>::allocate(unsigned __int64) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(2942): warning C4710: “wchar_t * __ptr64 __cdecl std::allocator<wchar_t>::allocate(unsigned __int64) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3035): warning C4710: “class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __ptr64 __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::assign(wchar_t const * __ptr64 const,unsigned __int64) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3264): warning C4710: “class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __ptr64 __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::assign(wchar_t const * __ptr64 const,unsigned __int64) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3264): warning C4710: “class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > & __ptr64 __cdecl std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::assign(char const * __ptr64 const,unsigned __int64) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3175): warning C4710: “class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __ptr64 __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::append(wchar_t const * __ptr64 const,unsigned __int64) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(3124): warning C4710: “class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > & __ptr64 __cdecl std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >::append(wchar_t const * __ptr64 const,unsigned __int64) __ptr64”: 函数未内联
+C:\c projs\zmq_sqlite_wxwidgets\include\zmqpp\context.hpp(84): warning C4710: “__cdecl zmqpp::zmq_internal_exception::zmq_internal_exception(void) __ptr64”: 函数未内联
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xmemory(238): warning C4711: 为自动内联扩展选定了函数“void * __ptr64 __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)”
+x64\Release\SvPanel.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+LINK : warning LNK4217: 符号“zmq_errno”(在“ libzmq-v142-mt-s-4_3_5.lib(zmq.obj)”中定义)已由“ZMQServer.obj”(函数“"public: __cdecl zmqpp::zmq_internal_exception::zmq_internal_exception(void)" (??0zmq_internal_exception@zmqpp@@QEAA@XZ)”中)导入
+LINK : warning LNK4217: 符号“zmq_strerror”(在“ libzmq-v142-mt-s-4_3_5.lib(zmq.obj)”中定义)已由“ZMQServer.obj”(函数“"public: __cdecl zmqpp::zmq_internal_exception::zmq_internal_exception(void)" (??0zmq_internal_exception@zmqpp@@QEAA@XZ)”中)导入
+LINK : warning LNK4217: 符号“zmq_ctx_new”(在“ libzmq-v142-mt-s-4_3_5.lib(zmq.obj)”中定义)已由“ZMQServer.obj”(函数“"protected: virtual void * __cdecl ZMQServer::Entry(void)" (?Entry@ZMQServer@@MEAAPEAXXZ)”中)导入
+  zmq_test.vcxproj -> C:\c projs\zmq_sqlite_wxwidgets\projs\zmq_test\x64\Release\zmq_test.exe
