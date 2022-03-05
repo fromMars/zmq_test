@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">zmq_client</string>
+    <string name="c">C</string>
+    <string name="default_server">tcp://2409:8a3c:3d02:bb80:b4:b18:89f2:bd85:4242</string>
+    <string name="default_chat_sentence">Hello</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_send">SEND</string>
+    <string name="et_chat_hint">Enter a message</string>
+    <string name="et_addr_hint">server address</string>
+</resources>
